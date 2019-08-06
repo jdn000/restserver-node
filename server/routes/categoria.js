@@ -90,7 +90,7 @@ app.post('/categoria', verificaToken, (req, res) => {
 
 });
 
-//mostrar categorias
+//actualizar categorias
 app.put('/categoria/:id', (req, res) => {
     let id = req.params.id;
     let body = req.body;
